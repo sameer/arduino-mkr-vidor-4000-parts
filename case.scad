@@ -13,6 +13,7 @@ difference() {
     import("J6.svg"); // micro-USB connector
     import("J8.svg"); // MiPi connector
     import("U11.svg"); // User LED
+    import("J10.svg"); // External antenna connector
     if (heatsink) {
         import("U1.svg"); // FPGA
         import("U5.svg"); // SAMD 21
