@@ -1,6 +1,8 @@
 heatsink = true;
+external_antenna_present = false;
 
 // top
+linear_extrude(0.01)
 difference() {
     import("outline.svg");
     import("holes.svg");
@@ -13,7 +15,9 @@ difference() {
     import("J6.svg"); // micro-USB connector
     import("J8.svg"); // MiPi connector
     import("U11.svg"); // User LED
-    import("J10.svg"); // External antenna connector
+    if (external_antenna_present)
+    import("J10.svg"); // External antenna connector (not soldered on by default it seems)
+    import("D1.svg"); // Power LED
     if (heatsink) {
         import("U1.svg"); // FPGA
         import("U5.svg"); // SAMD 21
@@ -22,6 +26,7 @@ difference() {
 }
 
 // bottom
+linear_extrude(0.01)
 translate([0,26])
 difference() {
     import("outline.svg");

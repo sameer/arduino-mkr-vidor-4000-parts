@@ -11,7 +11,7 @@
    height="25.918385mm"
    version="1.1"
    id="svg1252"
-   sodipodi:docname="U5.svg"
+   sodipodi:docname="D1.svg"
    inkscape:version="0.92.4 5da689c313, 2019-01-14"
    viewBox="0 0 319.98 97.959249">
   <metadata
@@ -39,9 +39,9 @@
      inkscape:window-height="682"
      id="namedview1254"
      showgrid="false"
-     inkscape:zoom="6.727722"
-     inkscape:cx="129.14781"
-     inkscape:cy="58.123718"
+     inkscape:zoom="13.455444"
+     inkscape:cx="45.63325"
+     inkscape:cy="73.408447"
      inkscape:window-x="2"
      inkscape:window-y="756"
      inkscape:window-maximized="1"
@@ -333,24 +333,14 @@
      id="g1250"
      transform="translate(-14.458995,-1004.8236)">
     <path
-       d="m 101.35103,1041.9191 h 26.40909 v 26.4091 h -26.40909 v -26.4091"
+       d="m 27.594546,1030.9785 a 0.754162,0.754162 0 0 0 1.508324,0 0.754162,0.754162 0 0 0 -1.508324,0 z"
        style="fill:none;stroke:#000000;stroke-linecap:round"
-       id="path278"
+       id="path1096"
        inkscape:connector-curvature="0" />
     <path
-       d="m 104.7462,1063.4238 a 1.131722,1.131722 0 0 0 2.26344,0 1.131722,1.131722 0 0 0 -2.26344,0 z"
+       d="m 31.366315,1032.4868 h -6.036172 v -3.0176 h 6.036172 v 3.0176"
        style="fill:none;stroke:#000000;stroke-linecap:round"
-       id="path290"
-       inkscape:connector-curvature="0" />
-    <path
-       d="m 112.26865,1053.9781 v 2.021 l 0.10829,0.4044 0.21848,0.2702 0.32678,0.1341 h 0.21752 l 0.32677,-0.1341 0.21753,-0.2702 0.10925,-0.4044 v -2.021"
-       style="fill:none;stroke:#000000;stroke-linecap:round"
-       id="path784"
-       inkscape:connector-curvature="0" />
-    <path
-       d="m 116.18895,1053.9781 h -1.08955 l -0.10829,1.2131 0.10829,-0.1351 0.32677,-0.1351 h 0.32677 l 0.32677,0.1351 0.21753,0.2693 0.10924,0.4044 -0.10924,0.2693 -0.10829,0.4044 -0.21848,0.2702 -0.32582,0.1341 h -0.32677 l -0.32677,-0.1341 -0.10924,-0.1351 -0.10925,-0.2693"
-       style="fill:none;stroke:#000000;stroke-linecap:round"
-       id="path786"
+       id="path1098"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
