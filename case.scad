@@ -2,7 +2,7 @@ heatsink = true;
 external_antenna_present = false;
 
 // top
-linear_extrude(0.01)
+linear_extrude(0.3)
 difference() {
     import("outline.svg");
     import("holes.svg");
@@ -26,7 +26,7 @@ difference() {
 }
 
 // bottom
-linear_extrude(0.01)
+linear_extrude(0.3)
 translate([0,26])
 difference() {
     import("outline.svg");
