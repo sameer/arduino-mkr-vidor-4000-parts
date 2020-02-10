@@ -36,14 +36,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1276"
-     inkscape:window-height="1392"
+     inkscape:window-height="682"
      id="namedview1254"
      showgrid="false"
-     inkscape:zoom="6.727722"
-     inkscape:cx="261.00025"
-     inkscape:cy="53.795231"
+     inkscape:zoom="14.273496"
+     inkscape:cx="285.30883"
+     inkscape:cy="18.106899"
      inkscape:window-x="1282"
-     inkscape:window-y="46"
+     inkscape:window-y="756"
      inkscape:window-maximized="1"
      inkscape:current-layer="g1250"
      units="mm"
@@ -339,13 +339,8 @@
        inkscape:connector-curvature="0" />
     <path
        d="m 313.75548,1015.3213 v 70.1725"
-       style="fill:none;stroke:#000000;stroke-linecap:round"
+       style="fill:none;stroke:#000000;stroke-linecap:butt"
        id="path238"
-       inkscape:connector-curvature="0" />
-    <path
-       d="m 313.75548,1081.7211 0.75512,-0.7542 h 3.01761 l 0.75512,0.7542"
-       style="fill:none;stroke:#000000;stroke-linecap:round"
-       id="path240"
        inkscape:connector-curvature="0" />
     <path
        d="m 314.8872,1085.4938 v -2.2634 l 2.2644,1.1317 -2.2644,1.1317"
@@ -354,13 +349,8 @@
        inkscape:connector-curvature="0" />
     <path
        d="m 313.75548,1011.5485 v 70.1726"
-       style="fill:none;stroke:#000000;stroke-linecap:round"
+       style="fill:none;stroke:#000000;stroke-linecap:butt"
        id="path246"
-       inkscape:connector-curvature="0" />
-    <path
-       d="m 313.75548,1015.3213 0.75512,0.7541 h 3.01761 l 0.94294,-0.9429"
-       style="fill:none;stroke:#000000;stroke-linecap:round"
-       id="path248"
        inkscape:connector-curvature="0" />
     <path
        d="m 313.75548,1054.1803 h 1.88684 v -11.3182 h -1.88684"
