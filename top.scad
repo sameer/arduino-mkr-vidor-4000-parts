@@ -23,7 +23,11 @@ J12s = [1.05, 1.0];
 
 J13p = [63.784, 18.166];
 J13d = [6.755, 7.753];
-J13s = [1.0, 1.0];
+J13s = [1.05, 1.0];
+
+U3p = [34.335, 3.741];
+U3d = [4.259, 5.257];
+U3s = [1.0, 1.0];
 
 U6p = [63.035, 0.050];
 U6d = [10.247, 14.240];
@@ -33,6 +37,7 @@ U6s = [1.05, 1.05];
 linear_extrude(0.3)
 difference() {
     import("outline.svg");
+
     import("holes.svg");
 
     translate(J3p + J3d/2)
@@ -78,7 +83,14 @@ difference() {
     import("D1.svg"); // Power LED
     if (heatsink) {
         import("U1.svg"); // FPGA
-        import("U3.svg"); // Flash
+
+        translate(U3p + U3d/2)
+        scale(U3s)
+        translate([0,U3d[1]/2])
+        scale([1,1.2])
+        translate([0,-U3d[1]/2])
+        import("U3.svg", center=true); // Flash
+
         import("U5.svg"); // SAMD 21
 
         translate(U6p + U6d/2)
